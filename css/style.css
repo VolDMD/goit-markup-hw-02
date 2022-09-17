@@ -96,15 +96,16 @@
 
 /*-----------------------------------------decision-----------------------------------------------*/
 
-
+main[
+    font-family: 'Roboto',sans-serif;
+]
 
 .decision{
     background: #2F303A;
 
 }
 .decision-btr{
-    font-family: 'Roboto';
-    font-style: normal;
+  
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -114,8 +115,7 @@
 }
 
 .decision-info{
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -127,8 +127,7 @@
     }
 
 .decision-list{
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -139,8 +138,7 @@
 }
 
 .decision-list-text{
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 11.71;
@@ -155,8 +153,6 @@
     background: #F5F5F5;
 }
 .benefits-list {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -165,8 +161,6 @@
     color: #212121;    
 }
 .benefits-list-text {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -177,8 +171,6 @@
 .about {
 }
 .about-list {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -201,8 +193,6 @@ color: #212121;
 .team {
 }
 .team-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -213,8 +203,6 @@ color: #212121;
 .team-img {
 }
 .team-name {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.9;
@@ -224,8 +212,6 @@ color: #212121;
     
 }
 .team-position {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.9;
@@ -249,7 +235,7 @@ color: #757575;
 
 
 .footer-adress {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -262,7 +248,7 @@ color: #757575;
     color: #2196F3
 }
 .footer-mail {
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -273,7 +259,7 @@ color: rgba(255, 255, 255, 0.6);
     color: #2196F3}
 
 .footer-tel {
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -295,15 +281,13 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .menu-item-btn {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.625;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
 }
 
 .menu-item-btn:hover{
@@ -318,28 +302,21 @@ cursor: pointer;
 .projects-item {
 }
 .projects-item-img {
-
-width: 370px;
-height: 294px;
+    width: 370px;
+    height: 294px;
 }
 
 .projects-item-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-       letter-spacing: 0.06em;
-    
+    letter-spacing: 0.06em;
     color: #212121;
 }
 .projects-item-view {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    
     color: #757575;
 }
